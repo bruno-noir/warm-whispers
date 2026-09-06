@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warm Whispers | Where every flame tells a story</title>
+<meta name="description" content="Warm Whispers creates beautifully designed scented candles that bring warmth, fragrance and comfort into everyday spaces.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-flame" aria-hidden="true"></span>
+      <span class="brand-text">
+        <span class="brand-name">Warm Whispers</span>
+        <span class="brand-tag">Where every flame tells a story</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#collection">Collection</a>
+      <a href="#mood">Shop by Mood</a>
+      <a href="#story">About Us</a>
+      <a href="#care">Candle Care</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="cart-btn" id="cartBtn" aria-label="View cart">
+        <span class="cart-icon" aria-hidden="true">&#128722;</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ 1. HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-media">
+    <img src="assets/hero-trio.jpg" alt="Three hand painted Warm Whispers candle tins resting in soft daylight">
+  </div>
+  <div class="hero-veil"></div>
+
+  <div class="hero-content">
+    <p class="eyebrow reveal">Handcrafted scented candles</p>
+    <h1 class="hero-title reveal">Warm Whispers</h1>
+    <p class="hero-tagline reveal">Where every flame tells a story.</p>
+    <p class="hero-quote reveal">&ldquo;Beautiful fragrances. Warm moments. Thoughtfully crafted.&rdquo;</p>
+
+    <div class="hero-buttons reveal">
+      <a href="#collection" class="btn btn-primary">Explore Our Collection</a>
+      <a href="#contact" class="btn btn-ghost">Shop Now</a>
+    </div>
+
+    <p class="hero-note reveal">Light a candle. Set the mood. Make the moment yours.</p>
+  </div>
+
+  <a href="#intro" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- ============ BELOW THE HERO ============ -->
+<section class="intro" id="intro">
+  <div class="wrap intro-grid">
+    <h2 class="intro-head reveal">A little light can change<br>the whole atmosphere.</h2>
+    <div class="intro-body reveal">
+      <p>At Warm Whispers, we create beautifully designed scented candles that bring warmth, fragrance and comfort into everyday spaces. From relaxing evenings to special celebrations, there is a glow for every moment.</p>
+      <div class="intro-stats">
+        <div><strong>5</strong><span>Signature scents</span></div>
+        <div><strong>100%</strong><span>Hand poured</span></div>
+        <div><strong>&#8377;299</strong><span>Starting from</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2. OUR COLLECTION ============ -->
+<section class="section" id="collection">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow dark">Our Collection</p>
+      <h2>Find the scent that feels like you</h2>
+      <p class="section-sub">Five fragrances, each poured into a hand painted tin that looks beautiful long before it is lit.</p>
+    </header>
+
+    <div class="products">
+
+      <article class="product reveal" id="rose-bloom" data-name="Rose Bloom">
+        <div class="product-img">
+          <img src="assets/p-rose.jpg" alt="Rose Bloom candle with a red rose shaped wax topper">
+          <span class="badge">Bestseller</span>
+        </div>
+        <div class="product-body">
+          <h3>&#127801; Rose Bloom</h3>
+          <p class="fragrance">Fragrance: Rose</p>
+          <p class="product-desc">A soft floral fragrance for a warm and romantic atmosphere.</p>
+          <div class="product-foot">
+            <span class="price">&#8377;399</span>
+            <button class="btn btn-small add-cart">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product reveal" id="lavender-calm" data-name="Lavender Calm">
+        <div class="product-img">
+          <img src="assets/lavender-heart.jpg" alt="Lavender Calm heart shaped candle covered in tiny purple hearts">
+        </div>
+        <div class="product-body">
+          <h3>&#128156; Lavender Calm</h3>
+          <p class="fragrance">Fragrance: Lavender</p>
+          <p class="product-desc">A soothing scent perfect for relaxing after a long day.</p>
+          <div class="product-foot">
+            <span class="price">&#8377;349</span>
+            <button class="btn btn-small add-cart">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product reveal" id="vanilla-comfort" data-name="Vanilla Comfort">
+        <div class="product-img">
+          <img src="assets/vanilla-tin.jpg" alt="Vanilla Comfort candle in a mandala tin with gold stars and dried flowers">
+        </div>
+        <div class="product-body">
+          <h3>&#129293; Vanilla Comfort</h3>
+          <p class="fragrance">Fragrance: Vanilla</p>
+          <p class="product-desc">A sweet and comforting fragrance that makes your space feel cozy.</p>
+          <div class="product-foot">
+            <span class="price">&#8377;299</span>
+            <button class="btn btn-small add-cart">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product reveal" id="coffee-mood" data-name="Coffee Mood">
+        <div class="product-img">
+          <img src="assets/p-coffee.jpg" alt="Coffee Mood candle in a warm mustard tin on a wooden table">
+        </div>
+        <div class="product-body">
+          <h3>&#9749; Coffee Mood</h3>
+          <p class="fragrance">Fragrance: Coffee</p>
+          <p class="product-desc">A rich, warm fragrance for coffee lovers and cozy mornings.</p>
+          <div class="product-foot">
+            <span class="price">&#8377;349</span>
+            <button class="btn btn-small add-cart">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product reveal" id="sandalwood" data-name="Sandalwood">
+        <div class="product-img">
+          <img src="assets/sandalwood-tin.jpg" alt="Sandalwood candle in a golden painted tin with its decorative lid">
+        </div>
+        <div class="product-body">
+          <h3>&#129294; Sandalwood</h3>
+          <p class="fragrance">Fragrance: Sandalwood</p>
+          <p class="product-desc">A warm, earthy fragrance that creates a calm and peaceful atmosphere.</p>
+          <div class="product-foot">
+            <span class="price">&#8377;399</span>
+            <button class="btn btn-small add-cart">Add to Cart</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. SHOP BY MOOD ============ -->
+<section class="section mood-section" id="mood">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow">Shop by Mood &#10024;</p>
+      <h2>How do you want to feel today?</h2>
+      <p class="section-sub">Pick a feeling and we will point you to the candle that matches it.</p>
+    </header>
+
+    <div class="moods">
+      <button class="mood reveal" data-target="lavender-calm">
+        <span class="mood-emoji">&#127807;</span>
+        <span class="mood-q">Need to relax?</span>
+        <span class="mood-a">Try Lavender Calm</span>
+      </button>
+      <button class="mood reveal" data-target="rose-bloom">
+        <span class="mood-emoji">&#10084;&#65039;</span>
+        <span class="mood-q">Feeling romantic?</span>
+        <span class="mood-a">Try Rose Bloom</span>
+      </button>
+      <button class="mood reveal" data-target="coffee-mood">
+        <span class="mood-emoji">&#9749;</span>
+        <span class="mood-q">Want a cozy vibe?</span>
+        <span class="mood-a">Try Coffee Mood</span>
+      </button>
+      <button class="mood reveal" data-target="vanilla-comfort">
+        <span class="mood-emoji">&#129293;</span>
+        <span class="mood-q">Want something comforting?</span>
+        <span class="mood-a">Try Vanilla Comfort</span>
+      </button>
+      <button class="mood reveal" data-target="sandalwood">
+        <span class="mood-emoji">&#127769;</span>
+        <span class="mood-q">Want a calm evening?</span>
+        <span class="mood-a">Try Sandalwood</span>
+      </button>
+    </div>
+
+    <div class="center reveal">
+      <button class="btn btn-primary" id="findCandle">Find Your Candle</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. WHY WARM WHISPERS ============ -->
+<section class="section" id="why">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow dark">Why Warm Whispers</p>
+      <h2>Made with care, from wick to lid</h2>
+    </header>
+
+    <div class="features">
+      <div class="feature reveal"><span class="f-icon">&#10024;</span><h3>Beautifully Designed</h3><p>Decorative candles that look beautiful even when they are not lit.</p></div>
+      <div class="feature reveal"><span class="f-icon">&#127800;</span><h3>Soothing Fragrances</h3><p>Carefully selected fragrances for different moods and moments.</p></div>
+      <div class="feature reveal"><span class="f-icon">&#128367;&#65039;</span><h3>Made for Every Space</h3><p>Perfect for bedrooms, living rooms, study spaces and cozy corners.</p></div>
+      <div class="feature reveal"><span class="f-icon">&#127873;</span><h3>Perfect for Gifting</h3><p>A simple yet thoughtful gift for someone special.</p></div>
+      <div class="feature reveal"><span class="f-icon">&#127969;</span><h3>More Than D&eacute;cor</h3><p>A candle that adds fragrance, warmth and personality to your space.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5. PERFECT FOR EVERY MOMENT ============ -->
+<section class="section occasions-section" id="occasions">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow dark">Perfect for Every Moment &#127873;</p>
+      <h2>There is a reason for every glow</h2>
+    </header>
+
+    <div class="occasions">
+      <div class="occasion reveal"><h3>Birthday</h3><p>Make their special day a little brighter.</p></div>
+      <div class="occasion reveal"><h3>Anniversary</h3><p>Add warmth to a memorable evening.</p></div>
+      <div class="occasion reveal"><h3>Housewarming</h3><p>A beautiful addition to a new space.</p></div>
+      <div class="occasion reveal"><h3>Self-Care</h3><p>Slow down, light a candle and relax.</p></div>
+      <div class="occasion reveal"><h3>Festivals</h3><p>Bring warmth and fragrance to celebrations.</p></div>
+      <div class="occasion reveal"><h3>Just Because</h3><p>Sometimes you do not need a reason.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6. OUR STORY ============ -->
+<section class="section story" id="story">
+  <div class="wrap story-grid">
+    <div class="story-img reveal">
+      <img src="assets/collage.jpg" alt="A collection of Warm Whispers candles styled in different homes and settings">
+    </div>
+    <div class="story-text reveal">
+      <p class="eyebrow dark">Our Story &#129293;</p>
+      <h2>It started with a simple thought.</h2>
+      <p class="story-lead">Every space deserves a little warmth.</p>
+      <p>Warm Whispers was created to make everyday moments feel more special. We combine beautiful decorative designs with comforting fragrances to create candles that are made not just to light a room, but to create an atmosphere.</p>
+      <p>Whether you are winding down after a long day, celebrating something special or simply enjoying some quiet time, Warm Whispers is here to make that moment glow.</p>
+      <a href="#collection" class="btn btn-outline">See the Collection</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7. HOW TO USE ============ -->
+<section class="section howto-section" id="howto">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow">How to Use Your Candle &#128367;&#65039;</p>
+      <h2>Four small steps to a perfect burn</h2>
+    </header>
+
+    <div class="steps">
+      <div class="step reveal"><span class="step-no">01</span><h3>Trim</h3><p>Trim the wick before lighting.</p></div>
+      <div class="step reveal"><span class="step-no">02</span><h3>Light</h3><p>Place the candle on a stable, heat resistant surface.</p></div>
+      <div class="step reveal"><span class="step-no">03</span><h3>Enjoy</h3><p>Let the fragrance fill your space.</p></div>
+      <div class="step reveal"><span class="step-no">04</span><h3>Extinguish</h3><p>Put out the flame safely and allow the candle to cool.</p></div>
+    </div>
+
+    <p class="safety reveal"><strong>Safety note:</strong> Never leave a burning candle unattended. Keep away from children, pets and flammable objects.</p>
+  </div>
+</section>
+
+<!-- ============ 8. CANDLE CARE ============ -->
+<section class="section" id="care">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow dark">Candle Care</p>
+      <h2>Look after it and it will look after your evenings</h2>
+    </header>
+
+    <div class="care-grid">
+      <div class="care reveal"><span class="f-icon">&#9986;&#65039;</span><h3>Keep the wick trimmed</h3><p>Trim the wick before each use.</p></div>
+      <div class="care reveal"><span class="f-icon">&#9200;</span><h3>Do not burn for too long</h3><p>Avoid leaving the candle burning for extended periods.</p></div>
+      <div class="care reveal"><span class="f-icon">&#129694;</span><h3>Place it safely</h3><p>Keep it away from curtains, paper and other flammable materials.</p></div>
+      <div class="care reveal"><span class="f-icon">&#128168;</span><h3>Avoid drafts</h3><p>Keep the candle away from fans and strong air currents.</p></div>
+      <div class="care reveal"><span class="f-icon">&#129482;</span><h3>Let it cool</h3><p>Allow the candle to cool completely before moving it.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 9. GALLERY ============ -->
+<section class="section gallery-section" id="gallery">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow">Gallery &#128248;</p>
+      <h2>A glimpse into the world of Warm Whispers.</h2>
+    </header>
+
+    <div class="gallery" id="galleryGrid">
+      <figure class="g-item g-tall reveal"><img src="assets/collage.jpg" alt="Warm Whispers candles styled across different rooms" loading="lazy"></figure>
+      <figure class="g-item reveal"><img src="assets/vanilla-tin.jpg" alt="Mandala tin candle with gold stars and dried flowers" loading="lazy"></figure>
+      <figure class="g-item reveal"><img src="assets/magenta-tin.jpg" alt="Deep magenta mandala candle tin with its lid resting beside it" loading="lazy"></figure>
+      <figure class="g-item g-wide reveal"><img src="assets/hero-trio.jpg" alt="Three candle tins in soft afternoon light" loading="lazy"></figure>
+      <figure class="g-item reveal"><img src="assets/lavender-heart.jpg" alt="Lavender heart candle made of tiny hearts" loading="lazy"></figure>
+      <figure class="g-item reveal"><img src="assets/teddy-heart.jpg" alt="Candle with a pink teddy bear and heart wax topper" loading="lazy"></figure>
+      <figure class="g-item g-wide reveal"><img src="assets/trio-wood.jpg" alt="Three candles lined up on a wooden board" loading="lazy"></figure>
+      <figure class="g-item reveal"><img src="assets/sandalwood-tin.jpg" alt="Golden painted candle tin with dried flowers" loading="lazy"></figure>
+      <figure class="g-item reveal"><img src="assets/rose-triptych.jpg" alt="Close up views of the rose and star candles" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10. REVIEWS ============ -->
+<section class="section reviews-section" id="reviews">
+  <div class="wrap">
+    <header class="section-head reveal">
+      <p class="eyebrow dark">Customer Reviews &#128172;</p>
+      <h2>Kind words from cozy homes</h2>
+    </header>
+
+    <div class="reviews">
+      <blockquote class="review reveal">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>&ldquo;The fragrance is so calming and the packaging is beautiful!&rdquo;</p>
+        <cite>Aanya</cite>
+      </blockquote>
+      <blockquote class="review reveal">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>&ldquo;I loved how the candle looks even before lighting it. Perfect for gifting.&rdquo;</p>
+        <cite>Riya</cite>
+      </blockquote>
+      <blockquote class="review reveal">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>&ldquo;The perfect addition to my evening routine.&rdquo;</p>
+        <cite>Meera</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 11. FAQ ============ -->
+<section class="section" id="faq">
+  <div class="wrap narrow">
+    <header class="section-head reveal">
+      <p class="eyebrow dark">FAQ &#10067;</p>
+      <h2>Questions we get asked a lot</h2>
+    </header>
+
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">How long does a candle last?<span class="faq-mark" aria-hidden="true"></span></button>
+        <div class="faq-a"><p>The burn time depends on the size and usage of the candle.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">What fragrances are available?<span class="faq-mark" aria-hidden="true"></span></button>
+        <div class="faq-a"><p>Rose, Lavender, Vanilla, Coffee and Sandalwood.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Can I gift a Warm Whispers candle?<span class="faq-mark" aria-hidden="true"></span></button>
+        <div class="faq-a"><p>Yes! Our candles are designed to be suitable for gifting.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">Are the containers reusable?<span class="faq-mark" aria-hidden="true"></span></button>
+        <div class="faq-a"><p>Yes, once the candle is completely finished and the container is properly cleaned, it can be reused as d&eacute;cor or storage.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q" aria-expanded="false">How should I store my candle?<span class="faq-mark" aria-hidden="true"></span></button>
+        <div class="faq-a"><p>Keep it in a cool, dry place away from direct sunlight.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 12. CONTACT / ORDER ============ -->
+<section class="section contact-section" id="contact">
+  <div class="wrap contact-grid">
+
+    <div class="contact-intro reveal">
+      <p class="eyebrow">Contact &#128233;</p>
+      <h2>Let us stay in touch</h2>
+      <p>Tell us which candle caught your eye and we will get back to you with the details.</p>
+
+      <ul class="contact-list">
+        <li><span>Email</span><a href="mailto:hello@warmwhispers.com">hello@warmwhispers.com</a></li>
+        <li><span>Instagram</span><a href="#contact">@warmwhispers</a></li>
+      </ul>
+      <p class="tiny">Instagram handle shown for project demonstration purposes.</p>
+    </div>
+
+    <form class="order-form reveal" id="orderForm" novalidate>
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name">
+        <small class="err"></small>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com">
+          <small class="err"></small>
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="10 digit number">
+          <small class="err"></small>
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="candle">Choose your candle</label>
+          <select id="candle" name="candle">
+            <option value="">Select a fragrance</option>
+            <option>Rose Bloom</option>
+            <option>Lavender Calm</option>
+            <option>Vanilla Comfort</option>
+            <option>Coffee Mood</option>
+            <option>Sandalwood</option>
+          </select>
+          <small class="err"></small>
+        </div>
+        <div class="field">
+          <label for="qty">Quantity</label>
+          <input type="number" id="qty" name="qty" min="1" max="50" value="1">
+          <small class="err"></small>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Anything you would like us to know"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block">Place Order</button>
+      <p class="form-success" id="formSuccess" hidden></p>
+      <p class="tiny">This is a college demonstration website. No real order is placed.</p>
+    </form>
+
+  </div>
+</section>
+
+<!-- ============ 13. FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <h3>Warm Whispers</h3>
+      <p>Where every flame tells a story.</p>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="#home">Home</a>
+      <a href="#collection">Collection</a>
+      <a href="#story">About Us</a>
+      <a href="#care">Candle Care</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Warm Whispers. All rights reserved.</p>
+    <p>Designed and built by Sakshi</p>
+  </div>
+</footer>
+
+<!-- ============ HELPERS ============ -->
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" id="lbClose" aria-label="Close image">&times;</button>
+  <img src="" alt="" id="lbImg">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
