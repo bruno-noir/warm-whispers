@@ -36,7 +36,3 @@ Open `index.html` in any browser and it runs.
 - Order form with full client side validation
 
 The cart and order form are demonstrations. No real order is placed.
-
-## Credits
-
-Designed and built by Sakshi.

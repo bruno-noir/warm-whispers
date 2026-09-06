@@ -1,6 +1,5 @@
 /* ==========================================================
    WARM WHISPERS
-   Designed and built by Sakshi
    ========================================================== */
 
 document.addEventListener('DOMContentLoaded', function () {
